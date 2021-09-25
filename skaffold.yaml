@@ -2,7 +2,7 @@ apiVersion: skaffold/v2beta23
 kind: Config
 build:
   artifacts:
-  - image: keptncontrib/prometheus-service
+  - image: solidnerd/prometheus-service
     docker:
       dockerfile: Dockerfile
       buildArgs:
